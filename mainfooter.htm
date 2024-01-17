@@ -14,7 +14,7 @@
             <img class="flower" src="blume.jpeg" alt="blume" />
         </section>
         <section>
-            <form class="contact" action="/course_registration.js">
+            <form class="contact" action="/course_registration.js" method="post">
                 <label for="fname">Vorname</label>
                 <input id="fname" type="text" name="fname" />
                 <br/>
@@ -26,14 +26,17 @@
                 <input id="email" type="email" name="email" />
                 <br/>
                 <br/>
-                <textarea></textarea>
+                <label for="comment">Zus&auml;tzliche W&uuml;nsche</label>
+                <textarea id="comment"></textarea>
                 <br/>
                 <input type="submit"/>
             </form>
         </section>
     </main>
+    <br/>
+    <br/>
     <footer class="collaborator">
-        <h5>Philipp Sauerländer</h5>
+        <h5>Philipp Sauerl&auml;nder</h5>
         <h5>Kevin Lampe</h5>
     </footer>
 </body>
